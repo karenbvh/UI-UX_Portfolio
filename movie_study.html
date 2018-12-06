@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <title> Movie Case Study </title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="movie_study.css" type="text/css" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <script src="movie_study.js"></script>
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--Footer social icons -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <style>
+            body{
+                color: black;
+            }
+        </style>
+
+<body class="movieApp" style="background:whitesmoke">
+
+
+<!--Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">KV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resume.html">Resume</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="Portfolio.html"> Portfolio</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="AboutMe.html"> About me </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact </a>
+              </li>
+          </ul>
+  
+        </div>
+  
+</nav>
+<!-- End of Nav Bar -->
+
+<br> 
+<div class="title">
+    <h2>UI/UX case study: Movie Booking Tickets for N.A.P. Films</h2>
+</div>
+<br> 
+
+
+    <!-- Tabs for Case study --> 
+
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link " id="pills-objective-tab" data-toggle="pill" href="#pills-objective" role="tab" aria-controls="objective" aria-selected="true">Objetive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-research-tab" data-toggle="pill" href="#pills-research" role="tab" aria-controls="research" aria-selected="false">Research </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-personas-tab" data-toggle="pill" href="#pills-personas" role="tab" aria-controls="personas" aria-selected="false">Personas</a>
+            </li>
+            <li clas="nav-item">
+                <a class="nav-link" id="pills-flowchart-tab" data-toggle="pill" href="#pills-flowchart" role="tab" aria-controls="flowchart" aria-selected="false">User Flow Chart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-sketches-tab" data-toggle="pill" href="#pills-sketches" role="tab" aria-controls="sketches" aria-selected="false">Sketches</a>
+            </li>
+            <!--Design-->
+            <li class="nav-item">
+                <a class="nav-link" id="pills-design-tab" data-toggle="pill" href="#pills-design" role="tab" aria-controls="design" aria-selected="false">Design</a>
+            </li>
+            <!--Conclusion -->
+            <li>
+                <a class="nav-link" id="pills-conclusion-tab" data-toggle="pill" href="#pills-conclusion" role="tab" aria-controls="conclusion" aria-selected="false">Conclusion</a>
+            </li>
+            <li>
+                <a class="nav-link" id="pills-sources-tab" data-toggle="pill" href="#pills-sources" role="tab" aria-controls="sources" aria-selected="false">Sources</a>
+            </li>
+    </ul>
+        <!-- End of Tabs/Pills -->
+
+        <!-- Tab's Content -->
+
+        <!--Objective-->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-objective" role="tabpanel" aria-labelledby="pills-objective-tab">
+                <br>
+                <div class="objContent">
+                <h3 align="center" >Objective </h3>
+                <hr>
+                    <p>The goal is to create an experience that gives the user the feeling of "This looks fun and I see myself going."
+                    In this case study I am going to use an independent perfomance company "N.A.P. Films" first movie feature "Welcome to Midori's House." 
+                    The company needs a quick and effective booking syte that engages with their customers.  </p>
+                    <br>
+                    I realize that inviting customers' to go out and watch independent movies is a difficult task because they live in a world of 
+                    streaming popular movies at home.
+                </div>
+            </div>
+
+            <!-- Research -->
+            <div class="tab-pane fade show active " id="pills-research" role="tabpanel" aria-labelledby="pills-research-tab">
+                <br>
+                <div class="research">
+                    <h3 align="center">Research</h3>
+                    <hr>
+                    <p>I started off with a little marketing research, I read an academic article reviewing the online movie ticket company 
+                    Fandago, <a href="http://web.b.ebscohost.com/ehost/detail/detail?vid=0&sid=c0904d9c-3277-4c05-ba7d-d77181621544%40pdc-v-sessmgr06&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=110352645&db=f3h">"Online and on the Go" </a>
+                    while at the same time exploring the app itself. 
+                    Here are the things I learned:
+                    <br>
+                    <h5>Research</h5>
+                    <br>
+                    <ul>
+                        <li>The box office reported sales of 10% every year, while Fandago has seen 57% year over year growth.</li>
+                        <li>More users are ordering movie tickets using voice commands via Siri and Google now. </li>
+                        <li>"Scanerless Ticketing" mobile feature allows to speed up the process of entering the movie theater by
+                            swiping "tear your ticket" at the entrance.
+                            </li>
+                    </ul>
+                    <br>
+                    <h5>Fandango</h5>
+                    <br>
+                    <ul>
+                        <li>It is hard to update or fix information as you go through the check out process.</li>
+                        <li>Exposing organized content.</li>
+                        <li>Events market</li>
+                    </ul>
+                    <br>
+                    It is important to look at consumer's online shopping behavior. For that I kept in mind that many companies provide trial
+                    samples to potential customers to stimulate intention, purchasing, and repurchasing behaviors <a href="https://hbr.org/2014/05/making-freemium-work">"freemium"</a>
+                    a strategy has been recognized as a sucessful business model for various online companies.
+                    <br>
+                    Many shoppers have a  <a href="http://web.b.ebscohost.com.ezproxy.lib.utah.edu/ehost/pdfviewer/pdfviewer?vid=1&sid=0d55fec2-e264-49d6-9e2e-14978f0f01a8%40pdc-v-sessmgr02"> recretional orientation </a>
+                    mindset and often make impulse buys resulting from enjoyment rather than from product necesity. 
+                    The following diagram shows user shoppin's flow. 
+                    <br>
+                    <br>
+                    <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/PurchaseBehavior%20.png?raw=true" alt="Map of purchase behavior" width="70%" height="auto">
+                    <br>
+                    <br>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Personas -->
+            <div class="tab-pane fade show active" id="pills-personas" role="tabpanel" aria-labelledby="pills-personas-tab">
+
+                <div class="personas" style="text-align:center">
+                    <h3 align="center">Personas</h3>
+                    <hr>
+                    <p>Based on my experience with N.A.P. Films and the interviews I had with their users, it can summarized into the following:</p>
+                    <br>
+                    <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/Movie_Personas.png?raw=true" alt="This is an image about my user personas" width="80%" height="50%">
+                </div>
+
+            </div>
+
+            <!-- User Flow Chart -->
+            <div class="tab-pane fade show active" id="pills-flowchart" role="tabpanel" aria-labelledby="pills-flowchart-tab">
+
+                <div class="userflow" style="text-align:center">
+
+                    <h3 align="center">User Flow Chart</h3>
+                    <hr>
+                    <p>I mapped out their e-ticket purchase experience journey.</p>
+                    <hr>
+                    <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_userFlow.png?raw=true" alt="This image displays my movie watching experience from a user perspective" width="60%" height="20%">
+                </div>
+            </div>
+
+            <!-- Sketches -->
+            <div class="tab-pane fade show active " id="pills-sketches" role="tabpanel" aria-labelledby="pills-sketches-tab">
+                <br>
+                <div class="sketches"> 
+                    <h3 align="center">  Low Fidelity Wireframes </h3>
+                    <hr>
+                    <p>At the time Deadpool seemed popular so I used it as my placeholder for my initial ideas.</p>
+                    <p>In the first model I focused on basic usablity and on the second wireframe I tried to focus on the movie itself. </p>
+
+                    <!--Image horizontally arranged --> 
+
+                    <div class="row" >
+                        <div class="column">
+                            <a href="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_sketchesthree.jpg?raw=true">
+                            <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_sketchesthree.jpg?raw=true" alt="Low fidelity sketch about movie app" width="90%" height="auto">
+                            </a>
+                        </div>
+                        <div class="column" >
+                            <a href="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_SketchesOne.jpg?raw=true">
+                            <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_SketchesOne.jpg?raw=true" alt="" width="90%" height="auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>  <!-- End of div sketches-->
+            </div> 
+
+            <!-- Wireframes -->
+
+            <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                
+                <div class="Design" style="text-align:center">
+                    <h3 align="center">High Fidelity Wireframe</h3>
+                    <hr>
+                    <p>The overall objectives of the design are to facilitate the movie experience by helping in movie decision making and ticket buying process smoother.</p>
+                    <h4 align="center">Features </h4>
+                    <br>
+
+                    <!-- Horizontal arranged images-->
+                    <div class="row">
+
+                        <div class="column">
+                            <!--HomePage Image -->
+                            <a href="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframe_homePage.png?raw=true">
+                                <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframe_homePage.png?raw=true" alt="" width="50%" height="auto">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="column">
+                            <!--Payment Wireframe-->
+                            <a href="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframePayment.png?raw=true">
+                                <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframePayment.png?raw=true" alt="" width="100%" height="auto">
+                            </a>
+                        </div>
+
+                        <div class="column">
+                            <!-- Sitting and Confirmation-->
+                            <a href="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframes.png?raw=true">
+                                <img src="https://github.com/karenbvh/Movie_CaseStudy/blob/master/movie_wireframes.png?raw=true" alt="" width="100%" height="auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--conclusion-->
+            <div class="tab-pane fade show active" id="pills-conclusion" role="tabpanel" aria-labelledby="pills-conclusion-tab">
+                <div class="Conclusion">
+                    <h3 align="center">Conclusion</h3>
+                    <hr>
+                    <p>The take away from this case study </p>
+                </div>
+            </div>
+            <!-- sources -->
+            <div class="tab-pane fade show active" id="pills-sources" role="tabpanel" aria-labelledby="pills-sources-tab">
+                <br>
+                <div class="sources">
+                    <h3 align="center">Sources</h3>
+                    <br>
+                    <hr>
+                    <ul>
+                        <li>Yanover, Paul. (2015). Online and on the Go. Film Journal International.Vol. 118 Issue 10, p54-54. </li>
+                        <li>Kang, Bomi.(2011). The impact of channel knowledge on shopping orientations in consumer buying behavior.
+                            Anatolia: An International Journal of Tourism & Hospitality Research.Vol. 22 Issue 1, p120-124.</li> 
+                        <li>Vineet, Kumar. (2014) Making “Freemium” Work. Retrieved from URL <a href="https://hbr.org/2014/05/making-freemium-work">https://hbr.org/2014/05/making-freemium-work</a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </div>
+          <br>
+
+<a href="#">Back to Top  </a>
+
+<!-- Footer Content -->
+<div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a> </li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3 myCols">
+                    <h5>Projects</h5>
+                    <ul>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Experience</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3 myCols">
+                    <h5>About me</h5>
+                    <ul>
+                        <li><a href="#">Who am I? </a></li>
+                        <li><a href="#">Adventures</a></li>
+                        <li><a href="#">Books</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3 myCols">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default">Contact me</button>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</head>
+</html>
